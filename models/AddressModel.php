@@ -3,7 +3,10 @@
 class AddressModel extends \Core\Model
 {
   private $result;
-  // Singleton instance
+  
+  /**
+   * Singleton instance
+   */
   protected static $instance;
 
   /**
@@ -40,9 +43,9 @@ class AddressModel extends \Core\Model
         if (count($line) >= 3)
         {
           $result = [
-              'name' => $line[0],
-              'phone' => $line[1],
-              'street' => $line[2]
+            'name' => $line[0],
+            'phone' => $line[1],
+            'street' => $line[2]
           ];
         }
         $this->result = $result;

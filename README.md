@@ -5,3 +5,7 @@ To install project follow next steps:
 * cd aittest
 * php -r "readfile('https://getcomposer.org/installer');" | php
 * php composer.phar install
+
+# Example request after installation
+
+http://yuordomain.com/user/address/0
