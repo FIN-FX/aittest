@@ -8,4 +8,4 @@ To install project follow next steps:
 
 # Example request after installation
 
-http://yuordomain.com/user/address/0
+http://yourdomain.com/user/address/0
