@@ -1,0 +1,13 @@
+{
+  "repositories":[
+    {
+      "type":"git",
+      "url":"http://github.com/FIN-FX/aitmvc"
+    }
+  ],
+
+  "require":{
+    "php":">=5.4.0",
+    "myproject/aitmvc":"dev-master"
+  }
+}
